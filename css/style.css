@@ -14,10 +14,22 @@ section {
   position: relative;
   display: inline-block;
 }
-
+.box:hover p {
+  display: block;
+  color: red;
+}
 
 h2 {
   position: absolute;
   top: 0;
   right: 0;
+  background-color: red
+}
+
+ p {
+  font-size: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+  display: none;
 }
