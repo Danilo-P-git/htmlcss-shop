@@ -3,16 +3,21 @@
   margin: 0px;
   padding: 0;
 }
-
-.box {
-  background-color: red;
-  display: inline-block;
-  width: 400px;
-  height: 400px;
-}
 section {
   position: relative;
   top: 50px;
   left: 25%;
   margin-bottom: 5px
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+
+h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
