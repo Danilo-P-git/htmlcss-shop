@@ -23,7 +23,10 @@ h2 {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: red
+  background-color: green;
+}
+.telefono > h2 {
+  background-color: red;
 }
 
  p {
